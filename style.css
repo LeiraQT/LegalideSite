@@ -612,6 +612,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 }
 .footer .container-req .request {
+	margin: 40px auto;
+}
+.footer .container-req .request .request-inner {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -621,9 +624,8 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	margin: 40px auto;
 }
-.footer .container-req .request .request-text h3 {
+.footer .container-req .request .request-inner .request-text h3 {
 	font-family: "Martel";
 	font-weight: 700;
 	font-size: 24px;
@@ -631,7 +633,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0.1px;
 	color: #252B42;
 }
-.footer .container-req .request .request-text p {
+.footer .container-req .request .request-inner .request-text p {
 	font-family: "Open Sans";
 	font-weight: 400;
 	font-size: 14px;
@@ -639,7 +641,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0.2px;
 	color: #737373;
 }
-.footer .container-req .request .request-btn {
+.footer .container-req .request .request-inner .request-btn {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
